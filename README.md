@@ -50,6 +50,10 @@ php artisan migrate
 php artisan make:auth
 ```
 
+Create tests for tags
+
+based on [ttd example on laracast](https://laracasts.com/series/lets-build-a-forum-with-laravel/episodes/2)
+
 ## Phpstorm
 Настройки проекта:
 1. Отметить app как директорию source

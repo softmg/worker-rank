@@ -29,7 +29,7 @@ pass data to view
 
 # Lesson 1.2
 Create model 
-1. User
+1. User (existed)
 2. Tag
 3. Project
 4. Task
@@ -43,3 +43,25 @@ Edit migration file and run
 ```bash
 php artisan migrate
 ```
+
++ seeder/factories
+
+## Phpstorm
+Настройки проекта:
+1. Отметить app как директорию source
+2. Исключить vendor и инициализировать composer
+3. Сделать public "Resources root" директорией
+4. Настроить базу через вкладку database
+
+Выучить вспомогательные shortcuts:
+```
+Alt+1 (Cmd+1) - убрать панель Project слева
+Для терминала и Version Control сделать шорткаты или использовать готовые
+Shift+F6 - переименовать файл и переменную в редакторе
+Tab/Shift+Tab - табуляция
+Cmd+Alt+L - форматировать код
+```
+
+# Lesson 2.1
+
+phpunit тесты (настройка и прогон для добавления тасков, проектов и тегов)

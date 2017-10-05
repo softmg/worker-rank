@@ -36,7 +36,7 @@ Create model
 5. Rank
 
 ```bash
-php artisan make:migration create_workers_table --create=workers
+php artisan make:model -mr Tag
 ```
 Edit migration file and run
 

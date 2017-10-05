@@ -46,6 +46,10 @@ php artisan migrate
 
 + seeder/factories
 
+```bash
+php artisan make:auth
+```
+
 ## Phpstorm
 Настройки проекта:
 1. Отметить app как директорию source
